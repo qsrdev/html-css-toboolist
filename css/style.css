@@ -36,12 +36,16 @@ img {
   margin-top: 30px;
   background-color: white;
   border-radius: 5px;
-  padding-left: 30px;
+  /* padding-left: 30px; */
   font-family: Arial, sans-serif;
 }
 
 body {
   background-color: rgba(246, 248, 249, 255);
+}
+
+.padding-30px {
+  padding-left: 30px;
 }
 
 .positive {
@@ -127,6 +131,7 @@ body {
   line-height: 50px;
   border-radius: 4px;
   font-size: larger;
+  margin-left: 30px;
 }
 
 .sectionadd {
