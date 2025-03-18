@@ -44,9 +44,71 @@ body {
   background-color: rgba(246, 248, 249, 255);
 }
 
+.positive {
+  display: inline-block;
+  width: 30px;
+  height: 30px;
+  line-height: 30px;
+  border-radius: 50%;
+  border: 1px solid green;
+  text-align: center;
+  color: green;
+  font-size: 20px;
+}
+
+.negative {
+  display: inline-block;
+  width: 30px;
+  height: 30px;
+  line-height: 30px;
+  border-radius: 50%;
+  border: 1px solid red;
+  text-align: center;
+  color: red;
+  font-size: 20px;
+}
+
+.label {
+  display: inline-block;
+  background-color: transparent;
+  color: white;
+  width: auto;
+  height: 40px;
+  line-height: 40px;
+  text-align: center;
+  height: 40px;
+  border-radius: 18px;
+  font-size: 18px;
+  padding: 0px 15px;
+}
+
+.editorial {
+  background-color: rgba(71, 173, 241, 255);
+}
+
+.q1 {
+  background-color: rgba(156, 114, 228, 255);
+}
+
+.recruiting {
+  background-color: rgba(100, 192, 169, 255);
+}
+
+.mobile {
+  background-color: rgba(242, 158, 51, 255);
+}
+
+.website {
+  background-color: rgba(219, 113, 170, 255);
+}
+
+.sales {
+  background-color: rgba(176, 201, 38, 255);
+}
+
 /* MAIN */
 .topsection {
-  border-bottom: 1px solid rgba(246, 248, 249, 255);
+  border-bottom: 4px solid rgba(246, 248, 249, 255);
   padding: 15px 0px 10px;
 }
 
@@ -79,5 +141,24 @@ body {
   padding: 0px 10px;
 }
 
-.listsubtitle {
+.titlesub-list {
+  list-style: none;
+  font-weight: bold;
+  font-size: 30px;
+  margin-top: 25;
 }
+
+.titlesub-list .content {
+  list-style: none;
+  font-weight: normal;
+  font-size: 25px;
+  padding: 10px 10px;
+  margintop 10px 0px;
+}
+
+/* .sub-list {
+  list-style: none;
+  padding-left: 50px;
+  font-weight: normal;
+  font-size: 25px;
+} */
