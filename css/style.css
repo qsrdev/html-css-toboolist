@@ -1,0 +1,36 @@
+/* RESET */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+img {
+  max-width: 100%;
+}
+
+/* Common */
+/* Layout */
+.container {
+  width: 80%;
+  margin: 0 auto;
+}
+
+/* Header */
+.header {
+  background-color: white;
+  padding: 25px 50px;
+}
+
+.header span {
+  font-family: Arial, sans-serif;
+  font-size: 80px;
+  font-weight: bold;
+  vertical-align: middle;
+}
+
+.header img {
+  height: 120px;
+  width: 120px;
+  vertical-align: middle;
+}
