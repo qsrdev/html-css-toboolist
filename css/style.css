@@ -153,7 +153,11 @@ body {
   font-weight: normal;
   font-size: 25px;
   padding: 10px 10px;
-  margintop 10px 0px;
+  margin-top: 10px;
+}
+
+.titlesub-list .content li {
+  padding-top: 20px;
 }
 
 /* .sub-list {
